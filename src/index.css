@@ -1,0 +1,106 @@
+body{
+    background-color: black;
+}
+.parent{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 260px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card .top img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid #eee;
+}
+
+.card .top button{
+    display: flex;
+    text-align: center;
+    gap: 2px;
+    padding: 4px 5px;
+    border-radius: 6px;
+    border: 1px solid #dadada;
+    color:#bcaaaa;
+    background: transparent;
+}
+.card .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+.card .center{
+    padding: 10px;
+    margin-bottom: 30px;
+    
+}
+.card .center h3{
+    font-size: 21px;
+    font-weight:100;
+}
+.card .center h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+.card .center h3,
+.card .center h2{
+    margin: 0%;
+}
+.card .center h3 span{
+    font-size: 12px;
+    font-weight: 100;
+    color: rgb(179, 203, 222);
+}
+.card .center div{
+    display: flex;
+    gap: 18px;
+    
+}
+.card .center div p{
+    font-size: 12px;
+    background: #dadada;
+    padding: 6px 10px;
+    border-radius: 6px;
+}
+.bottom{
+    padding-top:25px  ;
+    margin-top: 15px;
+    border-top: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bottom h3{
+    font-size: 21px;
+    font-weight: 400;
+}
+.bottom p{
+    font-size: 12px;
+    font-weight: 100;
+    color: #bcaaaa;
+}
+
+.bottom button{
+    font-size: 14px;
+    font-weight: 300;
+    background: black;
+    border: none;
+    padding: 8px 11px;
+    color: white;
+    border-radius: 7px;
+}
+.bottom h3, .bottom p{
+    margin: 0%;
+}
